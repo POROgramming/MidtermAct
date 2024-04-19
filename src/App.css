@@ -1,47 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
-  font-family: Poppins;
-}
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.title{
-  text-align: center;
-}
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F2613F;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.pares-card{
-  background-color:#9B3922;
-  color: white;
-  padding: 20px;
-  margin: 20px;
-  width: 330px;
-  height: 300px;
-  border-radius: 8px;
-}
-.stylish-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: rgb(70, 201, 70);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.stylish-button:hover {
-  background-color: rgb(70, 201, 70);
-  transform: scale(1.05);
-}
-
-.stylish-button:active {
-  background-color: rgb(70, 201, 70);
-  transform: scale(0.95);
+:root {
+  --orange-color: #E38D21;
+  --section-bg-color: #fff7ec;
+  --section-padding: 5rem 2rem;
+  --section-title-font-size: 2rem;
+  --section-subtitle-font-size: 1rem;
+  --Menu-title-font-size: 2rem;
+  --Menu-subtitle-font-size: 1.2rem;
 }
