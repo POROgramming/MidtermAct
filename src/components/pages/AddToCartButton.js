@@ -1,9 +1,9 @@
 import React from 'react';
 import AddCartIcon from '../assets/addCartIcon.png';
-import { useMenu } from './MenuContext'; // Import the useMenu hook
+import { useMenu } from './MenuContext';
 
 const AddToCartButton = ({ item }) => {
-  const { addToCart } = useMenu(); // Access addToCart function from context
+  const { addToCart } = useMenu(); 
 
   const handleAddToCart = () => {
     addToCart(item);
