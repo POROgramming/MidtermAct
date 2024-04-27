@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Cart.css';
-import { useMenu } from './MenuContext'; // Import useMenu hook
+import { useMenu } from './MenuContext';
 
 function Cart() {
-  const { menuItems, setMenuItems } = useMenu(); // Destructure menuItems and setMenuItems from context
+  const { menuItems, setMenuItems } = useMenu();
 
   // Function to handle quantity changes
   const handleQuantityChange = (index, newQuantity) => {
@@ -28,7 +28,7 @@ function Cart() {
     let totalPrice = 0;
     // Iterate through menuItems and calculate the total price
     menuItems.forEach((item) => {
-      totalPrice += item.price * (item.quantity || 1); // Assume quantity is 1 if not specified
+      totalPrice += item.price * (item.quantity || 1); 
     });
     return totalPrice;
   };
@@ -66,7 +66,7 @@ function Cart() {
                     <input
                       type='number'
                       className='cart__quantity-display'
-                      value={item.quantity || 1} // Assume quantity is 1 if not specified
+                      value={item.quantity || 1} 
                       readOnly
                     ></input>
                     <button
