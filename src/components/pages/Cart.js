@@ -36,7 +36,7 @@ function Cart() {
   // Function to handle checkout
   const handleCheckout = () => {
     // Clear all items in the cart
-    alert("Thank you for purchasing at DIWATA PARES OVERLOAD");
+    alert("Thank you for purchasing from DIWATA PARES OVERLOAD");
     setMenuItems([]);
   };
 
